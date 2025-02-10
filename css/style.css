@@ -8,8 +8,8 @@ body {
 
 /* Style the header */
 #encabezado {
-  /*display: flex;*/
-  /*flex-wrap: wrap;*/
+  display: flex;
+  flex-wrap: wrap;
   background-color: #666;
   padding: 30px;
   text-align: center;
@@ -64,11 +64,6 @@ footer ul {
   width: 70%;
   background-color: rgb(241, 241, 241);
 }
-
-/*section {*/
-/*  display: flex;*/
-/*  flex-direction: row;*/
-/*}*/
 
 /* Clear floats after the columns */
 section::after {

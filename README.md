@@ -4,7 +4,7 @@
 
 - [x] Pagina sobre estudiantes titulados
 - [x] Pagina sobre estudiantes activos
-- [ ] Pagina sobre estudiantes inactivos
+- [x] Pagina sobre estudiantes inactivos
 
 ## Estilo de la Pagina
 
@@ -13,7 +13,7 @@
       de elementos HTML
 - [x] Definir (CSS) y utilizar (HTML) al menos dos estilos para selectores ID
 - [x] Definir (CSS) y utilizar (HTML) al menos dos estilos para selectores de clase
-- [ ] Definir (CSS) al menos dos pseudo-clases, esto es, definir al menos dos
+- [x] Definir (CSS) al menos dos pseudo-clases, esto es, definir al menos dos
       elementos HTML diferentes. Dicho formato debe verse reflejado en la
       pagina HTML
 - [x] Utilizar comentarios al inicio de la pagina HTML, describiendo lo que
