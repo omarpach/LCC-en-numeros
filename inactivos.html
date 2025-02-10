@@ -1,61 +1,109 @@
-<!-- Página informativa sobre los procedimientos de baja de estudiantes en la Universidad de Sonora -->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudiantes Inactivos</title>
-    <link rel="stylesheet" href="styles.css">
+  <title>LCC en Numeros</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image-x/icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
+
+<!-- Página informativa sobre los procedimientos de baja de estudiantes en la Universidad de Sonora -->
+
 <body>
-    <header>
-        <h1>Información sobre Bajas de Estudiantes</h1>
-    </header>
-    <main>
-        <section id="tipos-de-baja">
-            <h2>Tipos de Bajas</h2>
-            <p>Según el reglamento escolar de la Universidad de Sonora, existen tres tipos de bajas:</p>
-            <ul>
-                <li><strong>Baja Voluntaria:</strong> Suspensión temporal en una o más asignaturas a solicitud del alumno dentro de los primeros 45 días del período escolar.</li>
-                <li><strong>Baja Automática:</strong> Separación definitiva de un programa por incumplimiento académico.</li>
-                <li><strong>Baja Definitiva:</strong> Separación total de la institución después de haber causado baja automática en dos programas.</li>
-            </ul>
-            <img src="baja_estudiantil.jpg" alt="Proceso de baja estudiantil" style="width:100%; max-width:600px; display:block; margin:auto;">
-        </section>
-        
-        <section id="cancelacion-inscripcion">
-            <h2>Cancelación de Inscripción</h2>
-            <p>Para cancelar la inscripción, el alumno debe:</p>
-            <ol>
-                <li>Presentar la solicitud ante el coordinador del programa.</li>
-                <li>El coordinador enviará el formato correspondiente al correo de trámites.</li>
-                <li>Se notificará la resolución de la solicitud.</li>
-            </ol>
-            <table border="1" style="width:100%; text-align:left;">
-                <tr>
-                    <th>Duración del trámite</th>
-                    <td>7 días hábiles</td>
-                </tr>
-                <tr>
-                    <th>Requisitos</th>
-                    <td>Formato con sello y firma de autorización del coordinador</td>
-                </tr>
-            </table>
-            <p><a href="https://serviciosescolares.unison.mx/wp-content/uploads/2022/08/Formato-de-Cancelacion-de-Inscripcion.pdf">Descargar formato editable</a></p>
-        </section>
-        
-        <section id="bajas-voluntarias">
-            <h2>Bajas Voluntarias</h2>
-            <p>Para realizar el trámite, el alumno debe:</p>
-            <ol>
-                <li>Ingresar al portal de alumno y seleccionar la opción de baja voluntaria.</li>
-                <li>Seleccionar la(s) asignatura(s) de la cual desea darse de baja.</li>
-                <li>Verificar la confirmación por correo electrónico.</li>
-                <li>Imprimir el horario corregido.</li>
-            </ol>
-            <p><strong>Fecha límite:</strong> Dentro de los primeros 45 días del período escolar.</p>
-            <p><strong>Importante:</strong> Las asignaturas dadas de baja se cobrarán al doble en la próxima inscripción.</p>
-        </section>
-    </main>
+  <!-- Seccion del encabezado -->
+  <header id="encabezado">
+    <!-- <div class="logo"> -->
+    <!--   <img src="https://www.unison.mx/wp-content/uploads/2018/08/escudo-med-lema.gif" alt="Logo Universidad de Sonora"> -->
+    <!-- </div> -->
+    <div id="nombre-pagina">
+      Estancia Universitaria
+    </div>
+  </header>
+
+  <!-- Contenido al centro de la pagina -->
+  <section>
+    <!-- Menu lateral -->
+    <nav id="sidebar">
+      <!-- Links relacionados -->
+      <ul>
+        <li><a class="page-link" href="/index.html">Estudiantes Titulados</a></li>
+        <li><a class="page-link" href="/egreso.html">Estudiantes Activos</a></li>
+        <li><a class="page-link" href="/inactivos.html">Estudiantes Inactivos</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seccion del contenido del articulo -->
+    <article class="articulo">
+      <section id="tipos-de-baja">
+        <h2>Tipos de Bajas</h2>
+        <p>Según el reglamento escolar de la Universidad de Sonora, existen tres tipos de bajas:</p>
+        <ul>
+          <li><strong>Baja Voluntaria:</strong> Suspensión temporal en una o más asignaturas a solicitud del alumno
+            dentro de los primeros 45 días del período escolar.</li>
+          <li><strong>Baja Automática:</strong> Separación definitiva de un programa por incumplimiento académico.</li>
+          <li><strong>Baja Definitiva:</strong> Separación total de la institución después de haber causado baja
+            automática en dos programas.</li>
+        </ul>
+        <img src="baja_estudiantil.jpg" alt="Proceso de baja estudiantil"
+          style="width:100%; max-width:600px; display:block; margin:auto;">
+      </section>
+
+      <section id="cancelacion-inscripcion">
+        <h2>Cancelación de Inscripción</h2>
+        <p>Para cancelar la inscripción, el alumno debe:</p>
+        <ol>
+          <li>Presentar la solicitud ante el coordinador del programa.</li>
+          <li>El coordinador enviará el formato correspondiente al correo de trámites.</li>
+          <li>Se notificará la resolución de la solicitud.</li>
+        </ol>
+        <table border="1" style="width:100%; text-align:left;">
+          <tr>
+            <th>Duración del trámite</th>
+            <td>7 días hábiles</td>
+          </tr>
+          <tr>
+            <th>Requisitos</th>
+            <td>Formato con sello y firma de autorización del coordinador</td>
+          </tr>
+        </table>
+        <p><a
+            href="https://serviciosescolares.unison.mx/wp-content/uploads/2022/08/Formato-de-Cancelacion-de-Inscripcion.pdf">Descargar
+            formato editable</a></p>
+      </section>
+
+      <section id="bajas-voluntarias">
+        <h2>Bajas Voluntarias</h2>
+        <p>Para realizar el trámite, el alumno debe:</p>
+        <ol>
+          <li>Ingresar al portal de alumno y seleccionar la opción de baja voluntaria.</li>
+          <li>Seleccionar la(s) asignatura(s) de la cual desea darse de baja.</li>
+          <li>Verificar la confirmación por correo electrónico.</li>
+          <li>Imprimir el horario corregido.</li>
+        </ol>
+        <p><strong>Fecha límite:</strong> Dentro de los primeros 45 días del período escolar.</p>
+        <p><strong>Importante:</strong> Las asignaturas dadas de baja se cobrarán al doble en la próxima inscripción.
+        </p>
+      </section>
+
+    </article>
+  </section>
+
+  <!-- Pie de pagina -->
+  <footer>
+    <h2>Autores</h2>
+    <ul>
+      <li>Omar Pacheco Velasquez</li>
+      <li>Manuel Gortarez Blanco</li>
+      <li>Braulio Sanvhez Bermudez</li>
+    </ul>
+  </footer>
+
 </body>
+
 </html>

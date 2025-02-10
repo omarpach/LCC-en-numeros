@@ -20,9 +20,9 @@
       hace cada pagina
 - [ ] Utilizar comentario sobre cada estilo desarrollado, indicando lo que realiza
       y los autores del proyecto
-- [ ] Utilizar al menos dos formatos diferentes para el uso de colores (usualmente
+- [x] Utilizar al menos dos formatos diferentes para el uso de colores (usualmente
       RGB y hexadecimal)
-- [ ] Utilizar al menos dos tipos de unidades (pixeles, porcentaje, etc)
-- [ ] Utilizar al menos dos elementos visuales HTML diferentes al texto (por ejemplo,
+- [x] Utilizar al menos dos tipos de unidades (pixeles, porcentaje, etc)
+- [x] Utilizar al menos dos elementos visuales HTML diferentes al texto (por ejemplo,
       listas ordenadas/desordenadas, tablas, imagenes, etc)
 - [ ] Asegurar la vista responsiva, es decir, la vista en dispositivos moviles.
