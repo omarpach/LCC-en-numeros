@@ -9,14 +9,14 @@
 ## Estilo de la Pagina
 
 - [x] Crear al menos un archivo CSS
-- [ ] Definir (CSS) y utilizar (HTML) al menos dos estilos para selectores
+- [x] Definir (CSS) y utilizar (HTML) al menos dos estilos para selectores
       de elementos HTML
-- [ ] Definir (CSS) y utilizar (HTML) al menos dos estilos para selectores ID
-- [ ] Definir (CSS) y utilizar (HTML) al menos dos estilos para selectores de clase
+- [x] Definir (CSS) y utilizar (HTML) al menos dos estilos para selectores ID
+- [x] Definir (CSS) y utilizar (HTML) al menos dos estilos para selectores de clase
 - [ ] Definir (CSS) al menos dos pseudo-clases, esto es, definir al menos dos
       elementos HTML diferentes. Dicho formato debe verse reflejado en la
       pagina HTML
-- [ ] Utilizar comentarios al inicio de la pagina HTML, describiendo lo que
+- [x] Utilizar comentarios al inicio de la pagina HTML, describiendo lo que
       hace cada pagina
 - [ ] Utilizar comentario sobre cada estilo desarrollado, indicando lo que realiza
       y los autores del proyecto
